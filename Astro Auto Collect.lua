@@ -15,7 +15,6 @@ screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local toggleBtn = Instance.new("TextButton")
 toggleBtn.Size = UDim2.new(0, 150, 0, 50)
-toggleBtn.Dragable = true
 toggleBtn.Position = UDim2.new(0, 20, 0.5, 0)
 toggleBtn.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 toggleBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -83,4 +82,5 @@ toggleBtn.MouseButton1Click:Connect(function()
         toggleBtn.Text = "Auto-Collect: OFF"
         toggleBtn.BackgroundColor3 = Color3.fromRGB(150, 0, 0)
     end
+
 end)
